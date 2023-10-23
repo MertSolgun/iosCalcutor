@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ios Calcutor</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img src="./img/iphone.jpg" alt="" />
+
+        <div class="result">
+          <p class="rs">0</p>
+        </div>
+        <div class="phone-container">
+          <div class="number-container">
+            <button id="clear">AC</button>
+            <button id="operation" value="+">+/-</button>
+            <button id="operation" value="%">%</button>
+            <button id="operation" value="/">/</button>
+            <div class="number number5 sayi" value="7">7</div>
+            <div class="number number6 sayi" value="8">8</div>
+            <div class="number number7 sayi" value="9">9</div>
+            <button id="operation" value="*">X</button>
+            <div class="number number9 sayi" value="4">4</div>
+            <div class="number number10 sayi" value="5">5</div>
+            <div class="number number11 sayi" value="6">6</div>
+            <button id="operation" value="-">-</button>
+            <div class="number number13 sayi" value="1">1</div>
+            <div class="number number14 sayi" value="2">2</div>
+            <div class="number number15 sayi" value="3">3</div>
+            <button id="operation" value="+">+</button>
+            <div class="number number17 sayi" value="0">0</div>
+            <button id="operation" value=".">.</button>
+            <button id="equal" value="=">=</button>
+          </div>
+        </div>
+        <div class="tab-icon">
+          <div class="tab-cn">
+            <span>LIFECELL TR</span>
+          </div>
+          <i class="fa-solid fa-signal" style="color: #ffffff"></i>
+          <i class="fa-solid fa-wifi" style="color: #ffffff"></i>
+          <div class="charge">
+            <div class="csct">
+              <div class="battery"></div>
+              <div class="bt"></div>
+            </div>
+          </div>
+        </div>
+        <div class="screen">
+          <div class="clock">
+            <p></p>
+            <span>00.00</span>
+          </div>
+          <div class="screen-tab">
+            <div class="light">
+              <svg
+                class="svg-icon"
+                style="
+                  width: 25px;
+                  height: 25px;
+                  vertical-align: middle;
+                  fill: white;
+                  overflow: hidden;
+                "
+                viewBox="0 0 1024 1024"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M634 64H390c-35.2 0-48 28.8-48 64h340c0-35.2-12.8-64-48-64zM392.2 295c15.2 17.6 23.8 40 23.8 63.4v531.8c0 43.8 35.8 69.8 79.8 69.8h32.6c43.8 0 79.8-25.8 79.8-69.8V358.4c0-23.4 8.6-45.6 23.8-63.4 30.8-35.8 50-69 50-135H342c0 70 19.2 99.2 50.2 135z m63.8 181.6c0-31.2 25.2-56.6 56-56.6s56 25.4 56 56.6v70.8c0 31.2-25.2 56.6-56 56.6s-56-25.4-56-56.6v-70.8z"
+                />
+                <path d="M512 546m-40 0a40 40 0 1 0 80 0 40 40 0 1 0-80 0Z" />
+              </svg>
+            </div>
+            <div class="camera">
+              <svg
+                class="svg-icon"
+                style="
+                  width: 25px;
+                  height: 25px;
+                  vertical-align: middle;
+                  fill: white;
+                  overflow: hidden;
+                "
+                viewBox="0 0 1024 1024"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M512 550m-115 0a115 115 0 1 0 230 0 115 115 0 1 0-230 0Z"
+                  fill=""
+                />
+                <path
+                  d="M835 320H726c-9.2 0-17.8-4-24-10.8-56.8-63.6-78.2-85.2-101.4-85.2h-171c-23.4 0-46.4 21.6-103.4 85.4-6 6.8-14.8 10.6-23.8 10.6h-8.2v-16c0-8.8-7.2-16-16-16h-52c-8.8 0-16 7.2-16 16v16h-15C159.8 320 128 346.4 128 381.4v352c0 35 31.8 66.6 67 66.6h640c35.2 0 61-31.6 61-66.6v-352c0-35-25.8-61.4-61-61.4zM520 720.8c-100.6 4.6-183.4-78.2-178.8-178.8 4-87.8 75-158.8 162.8-162.8 100.6-4.6 183.4 78.2 178.8 178.8-4 87.8-75 158.8-162.8 162.8zM704 436c-14.4 0-26-11.6-26-26s11.6-26 26-26 26 11.6 26 26-11.6 26-26 26z"
+                  fill=""
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="tab">
+            <p>Kilidi Açmak İçin yukarı kaydırın</p>
+          </div>
+          <div class="sor"></div>
+          <img src="./screen.jpg" alt="" class="screen-image" />
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
